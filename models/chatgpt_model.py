@@ -1,5 +1,4 @@
 import os
-from openai import OpenAI
 
 def chatgpt_response(prompt: str) -> str:
     api_key = os.getenv("OPENAI_API_KEY")
